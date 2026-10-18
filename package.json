@@ -1,0 +1,27 @@
+{
+  "name": "ipad-visual-touch-typography",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Interactive 3D inflatable typography under pressure with WebGL volumetric extrusion and spring physics.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.4.0"
+  },
+  "keywords": [
+    "creative-coding",
+    "webgl",
+    "typography",
+    "interaction-design",
+    "generative-design",
+    "glsl",
+    "ipad-touch",
+    "fontys"
+  ],
+  "author": "Max Doesborgh <max.doesborgh1983@gmail.com>",
+  "license": "MIT"
+}

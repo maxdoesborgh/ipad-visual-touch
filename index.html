@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <title>MAX DOESBORGH — Interactive Typography</title>
+  <meta name="description" content="Interactive 3D inflatable typography under pressure. Inspired by experimental creative coding and generative design.">
+  <meta name="theme-color" content="#050505">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <!-- Open Graph / Social Media -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="MAX DOESBORGH — Interactive Typography">
+  <meta property="og:description" content="Typography under pressure: inflatable 3D extrusion and elastic displacement.">
+
+  <!-- Google Fonts: Syne (Ultra-bold expressive grotesque) & Space Grotesk -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Space+Grotesk:wght@700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <!-- Accessible hidden heading for SEO and screenreaders -->
+  <header class="sr-only">
+    <h1>MAX DOESBORGH</h1>
+    <p>Interactive Typography and Generative Creative Coding Experience</p>
+  </header>
+
+  <!-- Clean, pure fullscreen canvas without any visual clutter -->
+  <main id="app-container" aria-label="Interactive Typography Canvas">
+    <canvas id="pressure-canvas" aria-hidden="true"></canvas>
+  </main>
+
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
